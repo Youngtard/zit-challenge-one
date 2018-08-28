@@ -4,6 +4,7 @@ def sqr_zeros():
 
     if inputted_value.isnumeric():
         decimal_number = int(inputted_value)
+
         binary_number = bin(decimal_number)
         binary_string = str(binary_number)
 

@@ -16,6 +16,7 @@ for i in range(maxAsterisksToBePrinted):
 
     if numberOfAsterisksPrinted == maxAsterisksToBePrinted:
         currentNumberOfAsterisksToPrint = 4
+
         for j in range(currentNumberOfAsterisksToPrint):
             print(asterisk * currentNumberOfAsterisksToPrint)
             currentNumberOfAsterisksToPrint -= 1
